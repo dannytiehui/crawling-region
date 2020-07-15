@@ -1,0 +1,27 @@
+{
+    "name": "dannytiehui/crawling-region",
+    "description": "Crawling into China's administrative regions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tiehui.Lu",
+            "email": "dannytiehui@hotmail.com"
+        }
+    ],
+    "require": {
+        "jaeger/querylist": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dannytiehui\\CrawlingRegion\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dannytiehui\\CrawlingRegion\\Tests\\": "tests/"
+   }
+}
